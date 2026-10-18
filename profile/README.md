@@ -8,9 +8,12 @@
 ## 진행 과정
 
 
-| HW 02-1 | `list.jsp`에 예시 도서 목록이 고정되어 있습니다. 등록·수정 폼 결과 페이지는 전달된 값을 표시합니다. 
+| HW 02-1 | `list.jsp`에 예시 도서 목록이 고정되어 있습니다. 등록·수정 폼 결과 페이지는 전달된 값을 표시합니다.
+
 | HW 02-2 | `BoardDAO`, `BoardVO`, `JDBCUtil`을 사용해 MariaDB의 `BOARD` 테이블에 도서 데이터를 등록·조회·수정·삭제합니다. `searchBoardList`에서 도서명 검색도 처리합니다. | JDBC CRUD와 DAO/VO 역할 분리 |
+
 | HW 02-3 | `BoardDAO`가 제목·작성자·내용·이미지 경로를 DB에 저장하고, 업로드된 이미지는 웹앱의 `upload` 폴더에 둡니다. 게시글 CRUD, 제목 검색, 날짜 범위 필터, 정렬 기능이 있습니다. | 파일 업로드와 DB에 파일 경로 저장, 검색 조건 구성 |
+
 | HW 03 | Spring MVC의 `BoardController` → `BoardService` → `BoardDAO` 구조로 목록·등록·수정·삭제·상세 조회와 검색을 구성합니다. `JdbcTemplate`을 사용하며 `BOARD2` 테이블과 `BoardVO`를 다룹니다. | Controller/Service/DAO 계층 분리와 Spring JDBC |
 
 
